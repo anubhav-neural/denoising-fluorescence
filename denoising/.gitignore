@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset - too large for GitHub
+dataset/
+test_mix.tar
+
+# Training outputs/checkpoints
+experiments/
+*.pth
+*.pt
+*.ckpt
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log

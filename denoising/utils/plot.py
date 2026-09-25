@@ -50,7 +50,7 @@ def save_samples(save_dir, images, iters, name, nrow=4, heatmap=True,
                 ax.set_aspect('equal')
             cbar = grid.cbar_axes[0].colorbar(im)
             cbar.ax.tick_params(labelsize=10)
-            cbar.ax.toggle_label(True)
+             # cbar.ax.toggle_label(True)
             plt.savefig(save_dir + '/{}_c{}_{}{}.png'.format(name, c, step, iters),
                         bbox_inches='tight')
             plt.close(fig)
